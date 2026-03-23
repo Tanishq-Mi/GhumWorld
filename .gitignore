@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+
+# Production builds
+build/
+dist/
+.next/
+out/
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDEs & Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Optional: lock files (if needed)
+# package-lock.json
+# yarn.lock
+
+# Uploads (important for apps with file/image uploads)
+uploads/
+public/uploads/
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Firebase / AWS / keys (if you use later)
+*.pem
+*.key
