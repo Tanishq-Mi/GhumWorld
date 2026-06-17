@@ -12,7 +12,10 @@ const app = express();
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:5173'],
+  origin: [ 'http://localhost:3000',
+    'http://localhost:5173',
+    'http://localhost:5174',
+    'https://ghum-world-8ica.vercel.app'],
   credentials: true
 }));
 app.use(express.json());
